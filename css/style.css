@@ -1,0 +1,557 @@
+body {
+    margin: 0 auto;
+    
+}
+
+.parent1 {
+    background-color: #fcdb00;
+    max-width: 1415px;
+    /*height: 770px;*/
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+.container1 {
+    padding: 60px 250px 40px 250px;
+}
+.top-nav {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+}
+.features {
+    width: 80px;
+    height: 17px;
+    display: flex;
+    color: #010101;
+    font-family: "PT Sans";
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.support {
+    width: 73px;
+    height: 20px;
+    display: flex;
+    color: #010101;
+    font-family: "PT Sans";
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-right: 78px;
+    margin-left: 73px;
+}
+
+.blog {
+    width: 39px;
+    height: 21px;
+    display: flex;
+    color: #010101;
+    font-family: "PT Sans";
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 20px;
+    
+}
+.fea-sup-blo {
+    display: flex; 
+}
+
+.inspire {
+    margin-top: 134px;
+    display: block;
+    
+    
+}
+
+.inspire-title {
+    width: 324px;
+    height: 30px;
+    color: #010101;
+    font-family: "PT Sans";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 18px;
+}
+.inspire-desc {
+    width: 309px;
+    height: 43px;
+    color: #313841;
+    font-family: "PT Sans";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.inspire-text {
+    width: 390px;
+    height: 76px;
+    color: #555555;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 39px;
+}
+
+.ipad-cont {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 338px;
+    position: relative;
+    justify-content: center;
+    
+}
+.ipad {
+    display: flex;
+    z-index: 1;
+    position: absolute;
+    
+    
+}
+
+.ipadlogo {
+    display: flex;
+    z-index: 2;
+    position: absolute;
+    margin-top: 197px;
+    
+    
+}
+.flexbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.threedot-cont{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 433px;
+}
+
+.parent2 {
+    background-color: #fafafa;
+    max-width: 1415px;
+    margin: 0 auto;
+    position: relative;
+    height: 770px;
+}
+
+.container2 {
+    padding: 60px 250px 40px 250px;
+    
+    
+    
+}
+
+.tiny-features {
+    display: flex;
+    
+    text-align: center;
+    flex-direction: column;
+    padding-top: 50px;
+   
+  
+}
+
+.tiny-feat-title {
+    width: 230px;
+    height: 30px;
+    
+    color: #010101;
+    font-family: "PT Sans";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+}
+
+.tiny-feat-text {
+    width: 739px;
+    height: 43px;
+    color: #313841;
+    font-family: "PT Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.fully-res {
+    margin-left: 30px;
+    margin-right: 40px;
+}
+.fully-res-title {
+
+    width: 195px;
+    height: 21px;
+    margin-bottom: 15px;
+    color: #010101;
+    font-family: "PT Sans";
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.fully-res-text {
+
+    width: 206px;
+    height: 75px;
+
+    color: #838383;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.fully-lay {
+    margin-left: 30px;
+    margin-right: 45px;
+}
+
+.fully-lay-title {
+
+    width: 197px;
+    height: 21px;
+    margin-bottom: 15px;
+    color: #010101;
+    font-family: "PT Sans";
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.fully-lay-text {
+
+    width: 206px;
+    height: 75px;
+
+    color: #838383;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.font-awesome {
+    margin-left: 30px;
+    margin-right: 45px;
+}
+
+.font-aw-title {
+
+    width: 200px;
+    height: 21px;
+    margin-bottom: 15px;
+    color: #010101;
+    font-family: "PT Sans";
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.font-aw-text {
+
+    width: 206px;
+    height: 75px;
+
+    color: #838383;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.html-css {
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.html-title {
+
+    width: 195px;
+    height: 21px;
+    margin-bottom: 15px;
+    color: #010101;
+    font-family: "PT Sans";
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.html-text {
+
+    width: 206px;
+    height: 75px;
+
+    color: #838383;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.email-temp {
+    margin-left: 25px;
+    margin-right: 55px;
+}
+
+.email-title {
+
+    width: 195px;
+    height: 21px;
+    margin-bottom: 15px;
+    color: #010101;
+    font-family: "PT Sans";
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.email-text {
+
+    width: 206px;
+    height: 75px;
+
+    color: #838383;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.free-down {
+    margin-left: 30px;
+    margin-right: 45px;
+}
+
+.freed-title {
+
+    width: 165px;
+    height: 21px;
+    margin-bottom: 15px;
+    color: #010101;
+    font-family: "PT Sans";
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.freed-text {
+
+    width: 206px;
+    height: 75px;
+
+    color: #838383;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.feat-cont1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 49px;
+}
+
+.feat-cont2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+p {
+    text-align: left;
+}
+
+#featimgs {
+    margin-top: 15px;
+}
+
+.parent3 {
+    background-color: #010101;
+    max-width: 1415px;
+    margin: 0 auto;
+    position: relative;
+    height: 770px;
+}
+
+.container3 {
+    padding: 60px 250px 40px 250px;
+}
+
+.keep-touch {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.keep-tch-title {
+    width: 300px;
+    height: 30px;
+    color: #fcdb00;
+    font-family: "PT Sans";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+}
+
+.keep-tch-text {
+    width: 745px;
+    height: 43px;
+    color: #898989;
+    font-family: "PT Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.keep-email {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 40px;
+    
+}
+
+.email-input {
+    width: 580px;
+    height: 49px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 0;
+    max-height: 100%;
+}
+.email-input::placeholder {
+    width: 180px;
+    padding-left: 24px;
+    color: #898989;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+
+.sub-butt {
+    border-radius: 5px;
+    background-color: #fcdb00;
+    border: 0;
+    width: 126px;
+    height: 50px;
+    margin-left: 21px;
+}
+
+.subm {
+    margin: 0 auto;
+    width: 55px;
+    height: 13px;
+    color: #010101;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.social-butts {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    justify-content: space-evenly;
+    margin-left: 300px;
+    margin-right: 350px;
+}
+
+.footer {
+    margin-top: 134px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 82px;
+    margin-left: 15px;
+}
+
+.context1 {
+
+    width: 190px;
+    height: 55px;
+
+    color: #a7a7a7;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.context2 {
+
+    width: 183px;
+    height: 16px;
+    padding-top: 8px;
+    color: #a7a7a7;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.context3 {
+
+    width: 120px;
+    height: 12px;
+    padding-top: 8px;
+    color: #a7a7a7;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.exshli {
+    width: 65px;
+    height: 52px;
+    color: #a7a7a7;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.capt {
+    width: 53px;
+    height: 73px;
+    color: #a7a7a7;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.dsd {
+    width: 77px;
+    height: 53px;
+    color: #a7a7a7;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.mbf {
+    width: 49px;
+    height: 53px;
+    color: #a7a7a7;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
